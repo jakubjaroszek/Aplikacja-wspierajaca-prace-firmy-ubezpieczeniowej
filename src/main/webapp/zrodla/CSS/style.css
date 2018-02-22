@@ -1,0 +1,228 @@
+ body {
+  overflow-x: hidden !important;
+}
+
+.menu-nawigacyjne { 
+    background:#ff8000;
+}
+
+
+/* /StronGlowna  */
+.menu-glowne {
+  line-height: 10px;
+  text-align: center;
+  background-color: white;
+  height: 10%;
+  padding-top: 20.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: .05rem solid #e5e5e5;
+  padding-bottom: 20px;
+ 
+}/* --------> */
+
+/* Strona glowna slider-karuzela  */
+.zdjecie-karuzela {
+	 min-height: 420px;
+}
+.tekst-karuzela-1 {
+   color: #ffffff;
+   font-size: 350%;
+    left: 15%;
+	top: 50% !important;
+	text-align: right;
+	bottom: initial;
+}
+.tekst-karuzela-2 {
+   color: #ffffff;
+    font-weight: bold;
+}
+@media only screen 
+and (min-width : 200px) 
+and (max-width : 780px) {
+    .tekst-karuzela-1{font-size: 32px;}
+    .tekst-karuzela-2{font-size: 15px;}
+    .panel-opis{font-size: 32px;}
+}
+  .carousel-indicators {
+  bottom: 100px;
+} /* --------> */
+
+
+/* /stronaGlowna  */
+.tekst-szczegoly-ubezpieczenia{
+	 margin-top: -6rem;
+}/* --------> */
+
+/* /stronaGlowna i /rodzajeUbezpieczen */
+  .featurette-heading {
+    font-size: 50px;
+  }
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}/* ---------->*/
+
+/* Strona rodzaje ubezpieczen  */
+.przegladaj-ubezpieczenia-tekst{
+	font-size:17px;
+}
+.przegladaj-ubezpieczenia-napis 
+{
+	font-weight: bold;
+    display: block;
+}
+.przegladaj-ubezpieczenia-znak-wyboru{
+	color: #00ff00;
+}
+.przegladaj-ubezpieczenia-dane {
+	display: block;
+}/* ----> */
+
+/* Strona informacje */
+.informacje{
+	padding-top: 8rem;
+}
+
+.informacje-napis {
+	font-weight: bold;
+    display: block;
+}
+
+.informacje-zdjecia{
+	padding-left: 15rem;
+}
+
+.informacje-kolor-opis{
+	color: #ff8000;
+}
+
+.informacje-dane{
+	display: block;
+}/* ---------> */
+
+/* Dotyczy stron na ktorych znajduja sie pola formularza */
+.formularz {
+ display: flex;
+  justify-content: center;
+}
+.naglowek-napis {
+	font-weight: bold;
+	line-height: 50px;
+	font-size: 30px; 
+}/* --------> */
+
+/* Komunikat walidacji formularza */
+.has-error{
+	color:red;
+}/* --------> */
+
+/* Przyciski przy formularzach {POST}*/
+ .przycisk , .przyciskAnuluj{
+ color: white;
+ background-color: #ff8000;
+}/* --------> */
+
+/* Strona /skladkaUbezpieczenieSamochodu */
+ .wartosc-skladki-ubezpieczenia{
+	font-size: 350%;
+}/* --------> */
+
+/* przycik wyloguj /system  */
+.wyloguj {
+	
+	background-color: #0080ff;
+}/* --------> */
+
+/* Strona /menuKlient */
+.przycisk-system-klient {
+	font-weight: bold;
+	line-height: 80px; 
+	text-align: center; 
+	font-size: 150%
+}
+
+.naglowek-menu-system-klient{
+ color: #ff8040;
+	text-align: center; 
+	font-size: 350%
+}/* --------> */
+
+
+  /* /system uzytkownik z upr. admin. i konsultanta  */ 
+.panel-administracyjny, panel-konsultanta{
+  color: #ff8000;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  padding-top:90px;
+}/* --------> */
+
+.jumbotron-menu{
+	padding-top: 5%;
+	background-color: white;
+}
+
+.jumbotron{
+	
+	background-color: white;
+}
+
+
+ .wejscie{
+ text-transform: uppercase;
+}
+
+h2{
+	color: #ff8000;
+}
+
+.vertical-center {
+ text-align: center; 
+ background-color: white;
+}
+
+.well lead {
+	color: #ff8000;
+	
+}
+
+.texbox{
+display: none;
+}
+
+
+.dane-osobowe, .dane-pojazdu{
+	font-weight: bold;
+}
+
+.panel-heading {
+	padding-top: 2rem;
+	color: #ff8000;
+}
+
+.panel-opis{
+	text-align: center;
+	 padding-top: 5rem;
+}   
+
+.panel-uzytkownik {
+	padding-top: 1em;
+	color: #ff8000;
+	 position: absolute;
+  top: 0;
+  right: 100;
+}
+
+.napis-uzytkownik {
+	color: #ff8040;
+	padding-top: 3em;
+}
+
+.przyciski{
+	width: 27.0rem;
+}
+
+/* /noweUbezpieczenie */
+.czas-trwania-ubezpieczenia{
+	display: none;
+} 
