@@ -2,7 +2,7 @@
 
 The application project was written for the purposes of the diploma thesis. Class names, types, methods have been purposefully changed to Polish to enable the potential reader to better understand source code of the application. Technologies used: Spring MVC, Security, Hibernate, PayPal REST API, Boostrap, Maven, Tomcat.
 
-The prototype of the application is to support the work of a potential insurance company. The application offers calculating car insurance premiums, it can be online purchased and  overviewed which requires logging in to the application system. In the case of other insurances, it is possible to contact via the form. Data validation occurs. The test payment is made using PayPal and the REST API programming interface. A part of the system was also created for the user with the privileges of an employee and administrator.
+The prototype of the application is to support the work of a potential insurance company. The application offers calculating car insurance premiums, it can be online purchased and overviewed which requires logging in to the application system. In the case of other insurances, it is possible to contact via the form. Data validation occurs. The test payment is made using PayPal and the REST API programming interface. A part of the system was also created for the user with the privileges of an employee and administrator.
 ---------------------------
 Projekt aplikacji został napisany na potrzeby pracy dyplomowej. Nazwy klas, typów, metod zostały celowo zmienione na język polski aby umożliwić potencjalnemu czytelnikowi lepsze zrozumienie kodu źródłowego aplikacji. Użyte technolgoie: Spring MVC, Security, Hibernate, PayPal REST API, Boostrap, Maven, Tomcat.
 
